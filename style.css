@@ -1,0 +1,26 @@
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #800080;
+}
+
+body{
+    max-width: 1500px;
+    height: 100%;
+}
+.bg-success{
+
+}
+.bg-primary{
+    padding: 15rem;
+    padding-top: 5px;
+}
+.flex-grow-1{
+    padding: 5rem;
+}
+.flex-grow-1:nth-child(3){
+    background-color: #FFA500;
+}
